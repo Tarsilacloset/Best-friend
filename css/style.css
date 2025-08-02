@@ -1,0 +1,70 @@
+
+    body {
+        background-color: #fff0f5; /* rosa claro */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+
+    audio {
+        margin: 20px 0;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+
+    p {
+        max-width: 600px;
+        margin: 15px auto;
+        line-height: 1.6;
+        background-color: #ffe4e1;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    strong {
+        color: #c71585;
+    }
+    .paragrafo{
+        max-width: 600px;
+        margin: 15px auto;
+        line-height: 1.6;
+        background-color: #faa096;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        color: white;
+    }
+    .botao {
+    display: inline-block;
+    background-color: #fc0000; /* rosa chiclete */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
